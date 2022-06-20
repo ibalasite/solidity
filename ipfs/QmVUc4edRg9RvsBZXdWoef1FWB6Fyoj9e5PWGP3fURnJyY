@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test1GetLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Demo3.sol": "Demo3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Demo3.sol": {
+			"keccak256": "0x856a267068bfd50ca7af0500a1e2e6a9114ca67c20ed06e1d796de4f54ad913f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8a6a0817b95e7ed7086161fb9e9bce23cbd52c3622702885a13d90ba30d38fae",
+				"dweb:/ipfs/QmSkM2uRggg9bhoai3pqnQrAtu7iHBJssK55a8xt5VhaRP"
+			]
+		}
+	},
+	"version": 1
+}
