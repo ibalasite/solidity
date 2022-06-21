@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.7.4+commit.3f05b770"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSize",
+				"outputs": [
+					{
+						"internalType": "enum Demo4.StarbuckSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setVenti",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Demo4.sol": "Demo4"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Demo4.sol": {
+			"keccak256": "0xd434c71bfb51b70b2bf387b58798ede8eed82d86bb51e4341e9c3acf092ac698",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1c844c2673eb7b4ce445b5637cf784dc94455c09dcc618a9e62bfdf53c004119",
+				"dweb:/ipfs/QmadhfM6v5zWaKYp3MmWRxFv5NKNSRnNfdoaHKaBi599cb"
+			]
+		}
+	},
+	"version": 1
+}
