@@ -3,7 +3,7 @@ pragma solidity ^0.7.4;
 contract Demo2{
     function getResult() public pure returns (string memory){
         uint256 a = 123;
-        uint256 b = 56899;
+        uint256 b = 66899;
         uint256 result = a+b;
         return integerToString(result);
     }
