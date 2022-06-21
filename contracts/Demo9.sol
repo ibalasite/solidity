@@ -6,6 +6,8 @@ contract Demo9 {
     string[] public myArray;
     constructor(){
         myArray.push("hi");
+        myArray.push("hello");
+        myArray.push("welcome");
     }
     function getArray() public view returns(string[] memory){
         return myArray;
