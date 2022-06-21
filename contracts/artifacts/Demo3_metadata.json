@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.7.6+commit.7338295f"
+		"version": "0.7.4+commit.3f05b770"
 	},
 	"language": "Solidity",
 	"output": {
@@ -43,6 +43,32 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test4GetWrongElement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test5GetWrongElement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -73,11 +99,10 @@
 	},
 	"sources": {
 		"contracts/Demo3.sol": {
-			"keccak256": "0x969b7ecea1bb8a453c429fac2fdce79772b1f2882c65cb0651900ff7430d06da",
-			"license": "GPL-3.0",
+			"keccak256": "0x49bdee7aecf3617409ee430844c604098f5417000e17b450fde8be6d5fd8f287",
 			"urls": [
-				"bzz-raw://b8dfc1d98dabe51a71b13513816ffe32c8daf95dc4eb89a5c0dcb84d0754f3d3",
-				"dweb:/ipfs/QmZ9xr2sjQz9LkpHBRRj9rTXhncKLGeArpey4x6pyzxZZo"
+				"bzz-raw://c0df1dd0aec87158f907a90b89adde23fee04535fb65e0a4800a3bcabfb688d5",
+				"dweb:/ipfs/QmVBHFocPUKTsRx9Aumx3jZgm7Qrgsg55aC1s4pooeekD1"
 			]
 		}
 	},
