@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.7.4+commit.3f05b770"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCourse",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "id",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "duration",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct Demo5.Course",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCourseID",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setCourse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Demo5.sol": "Demo5"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Demo5.sol": {
+			"keccak256": "0x3624230b9f6553fa5a2c0dfa264b493a7d236bf9b9c62f50430df40ecfe7a7ce",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2ff047fdbe3f66370b5e52272bf1e7fe7035d18cf907e928fedebaf7fa02be03",
+				"dweb:/ipfs/QmV2cd9FoAhk8SBJdCYU5Rrx6ysJDmMwuRx5xucRCgrqCP"
+			]
+		}
+	},
+	"version": 1
+}
