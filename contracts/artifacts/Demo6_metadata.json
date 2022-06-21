@@ -4,7 +4,110 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "acc",
+						"type": "address"
+					}
+				],
+				"name": "add100",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "acc",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getExternalOwnedAccountBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSelfBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getWelcome",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "updateBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +121,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Demo7.sol": "Demo6"
+			"contracts/Demo6.sol": "Demo6"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -32,12 +135,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Demo7.sol": {
-			"keccak256": "0x845f7b8f1c81c0c08d7f9f5a5aa2dcd011c0cd0ca687dcad642d858e5252d571",
+		"contracts/Demo6.sol": {
+			"keccak256": "0x26db7e4bf3a7a3c9c672723084263441954aebf4f387091eca5df6011c22fc39",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ce4a1f9c55fd9d9472cfb0b0d7885ca675154af810b4130a3fb4ff50a632a7a8",
-				"dweb:/ipfs/QmXnvX9F26eh5hMLyKfm9TDp4zgajj3z6rUAWt9d6r1Nwo"
+				"bzz-raw://957683d476b8682c55ffe817f368f015b6fe3e548dd9121ffe6dabf97794acaa",
+				"dweb:/ipfs/QmRnTuLdY9zTrXLAKzQzbLkaMJx6m9VZLuiwAe8Ju6GRp2"
 			]
 		}
 	},
