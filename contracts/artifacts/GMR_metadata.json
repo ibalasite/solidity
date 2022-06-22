@@ -78,10 +78,10 @@
 	},
 	"sources": {
 		"contracts/GMR.sol": {
-			"keccak256": "0xda9ff1ff9c5872b1cf9e82077c0b174d6527fc44bac9bc5be2c50d74e9496082",
+			"keccak256": "0x61df5e480339320b1d86245e7b5a12b8d7d27aa7bc04c75c06afb014bfb4fc9b",
 			"urls": [
-				"bzz-raw://1254d86b93db6587ac3d87aef993b0b3706ad3c732ae84e15ffea030181ecece",
-				"dweb:/ipfs/QmaEPtLur33zNkwHhborDe7XvZ9ZeJUucMm2ExMwCu1yfR"
+				"bzz-raw://046b7d53d906aaf0d0711c34d1d98a5be06bf5835b1fbf94af45a1a4b1c7fd60",
+				"dweb:/ipfs/QmerKRzsy5qzgkqbwVVxwzmGu9Esbsz8Gu3GcRozYjL9uJ"
 			]
 		}
 	},

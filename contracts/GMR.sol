@@ -8,6 +8,12 @@ contract GMR {
     }
     function enterGame() public payable {
         //players.push(msg.sender);
-        players.push(tx.origin);
+        require(msg.value> 0.0001 ether);
+        players.push(msg.sender);
+        //players.push(tx.origin);
+    }
+    function chooseByTime() private view returns(uint){
+        uint result = block.timestamp%players.length;
+        return result;
     }
 }
