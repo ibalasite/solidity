@@ -38,6 +38,21 @@
 			{
 				"constant": true,
 				"inputs": [],
+				"name": "getCurrentPlayer",
+				"outputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -102,10 +117,10 @@
 	},
 	"sources": {
 		"contracts/GMR.sol": {
-			"keccak256": "0x4497fb1357b68bc9bfd7efe2ee1375873aed679dacef2430adcda8056bee6a7a",
+			"keccak256": "0xd39024c7597e647e618bffc3f133b19e8318b0613ba3c541301238f43dd5c6b7",
 			"urls": [
-				"bzz-raw://c5717017bffbd4e145c3aeebdfcd31c3ac7dc45e8d4aa67af651f0291a677201",
-				"dweb:/ipfs/Qmf91RLA3SLyScDJ9xbaTv4sEADAipYaaS96yoMVbrd9jQ"
+				"bzz-raw://394eb41a50fe9a2507bd52bf8367bc8135232c95a0c1ecd9d1181d3fa7999e62",
+				"dweb:/ipfs/QmSfdn4fXorzLVaxCc2wkRHGC1ZXC4aLiiwhSkyGSfAp1C"
 			]
 		}
 	},
