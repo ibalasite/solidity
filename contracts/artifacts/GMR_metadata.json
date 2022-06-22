@@ -23,6 +23,21 @@
 			{
 				"constant": true,
 				"inputs": [],
+				"name": "getContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -87,10 +102,10 @@
 	},
 	"sources": {
 		"contracts/GMR.sol": {
-			"keccak256": "0x2c2b5f60256eea430e6ec610cc0c1197ffce43ecaed7765db1449a62e2635903",
+			"keccak256": "0x4497fb1357b68bc9bfd7efe2ee1375873aed679dacef2430adcda8056bee6a7a",
 			"urls": [
-				"bzz-raw://befcd26e70f31d14a4aa7215d4de0701a270e0c640917f0c46abb053b6ecc462",
-				"dweb:/ipfs/Qme6n7fWv6XdeR1UtzFvLpn2yiYdVnKT162NZJrwVfDwXb"
+				"bzz-raw://c5717017bffbd4e145c3aeebdfcd31c3ac7dc45e8d4aa67af651f0291a677201",
+				"dweb:/ipfs/Qmf91RLA3SLyScDJ9xbaTv4sEADAipYaaS96yoMVbrd9jQ"
 			]
 		}
 	},

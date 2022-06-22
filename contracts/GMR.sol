@@ -7,6 +7,9 @@ contract GMR {
     constructor() public {
         manager = msg.sender;
     }
+    function getContractBalance() public view returns(uint){
+        return address(this).balance;
+    }
     function enterGame() public payable {
         //players.push(msg.sender);
         require(msg.value> 0.0001 ether);
@@ -17,8 +20,12 @@ contract GMR {
         uint result = block.timestamp%players.length;
         return result;
     }
-    function payEtherToPlayer() public {
-        require(msg.sender == manager);
+    modifier restricted(){
+        require(msg.sender==manager);
+        _;
+    }
+    function payEtherToPlayer() public restricted {
+        //require(msg.sender == manager);
         uint256 winnerIndex = chooseByTime();
         players[winnerIndex].transfer(address(this).balance);
         players=new address payable[](0);
