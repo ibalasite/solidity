@@ -2,7 +2,8 @@ pragma solidity ^0.5.16;
 
 contract GMR {
     address public manager;
-    address[] public players;
+    address payable[] public players;
+
     constructor() public {
         manager = msg.sender;
     }
@@ -16,4 +17,13 @@ contract GMR {
         uint result = block.timestamp%players.length;
         return result;
     }
+    function payEtherToPlayer() public {
+        require(msg.sender == manager);
+        uint256 winnerIndex = chooseByTime();
+        players[winnerIndex].transfer(address(this).balance);
+        players=new address payable[](0);
+       
+    }
+    
+    
 }

@@ -36,6 +36,15 @@
 				"type": "function"
 			},
 			{
+				"constant": false,
+				"inputs": [],
+				"name": "payEtherToPlayer",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"constant": true,
 				"inputs": [
 					{
@@ -47,7 +56,7 @@
 				"name": "players",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "",
 						"type": "address"
 					}
@@ -78,10 +87,10 @@
 	},
 	"sources": {
 		"contracts/GMR.sol": {
-			"keccak256": "0x61df5e480339320b1d86245e7b5a12b8d7d27aa7bc04c75c06afb014bfb4fc9b",
+			"keccak256": "0x2c2b5f60256eea430e6ec610cc0c1197ffce43ecaed7765db1449a62e2635903",
 			"urls": [
-				"bzz-raw://046b7d53d906aaf0d0711c34d1d98a5be06bf5835b1fbf94af45a1a4b1c7fd60",
-				"dweb:/ipfs/QmerKRzsy5qzgkqbwVVxwzmGu9Esbsz8Gu3GcRozYjL9uJ"
+				"bzz-raw://befcd26e70f31d14a4aa7215d4de0701a270e0c640917f0c46abb053b6ecc462",
+				"dweb:/ipfs/Qme6n7fWv6XdeR1UtzFvLpn2yiYdVnKT162NZJrwVfDwXb"
 			]
 		}
 	},
