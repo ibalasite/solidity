@@ -23,4 +23,18 @@ contract CAC{
         approvers.push(msg.sender);
 
     }
+    function createRequest(
+        string memory des,
+        uint256 value,
+        address vendor
+    ) public restricted {
+        SpendingRequest memory req = SpendingRequest({
+            description: des,
+            value: value,
+            vendorAccount: vendor,
+            complete: false
+        });
+        requests.push(req);
+    }
+
 }
