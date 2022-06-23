@@ -4,7 +4,7 @@ contract CAC{
     struct SpendingRequest{
         string description;
         uint256 value;
-        address vendorAccount;
+        address payable vendorAccount;
         bool complete;
         uint approvalCount;
         mapping(address=>bool) approvedUsers;
@@ -20,8 +20,8 @@ contract CAC{
     uint256 public minimumFund;
     uint public approversCount;
     mapping(address => bool) public approvers;
-    constructor(uint256 fund) {
-        manager = msg.sender;
+    constructor(uint256 fund,address mgr) {
+        manager = mgr; //msg.sender;
         minimumFund= fund;
     }
     function join() public payable{
@@ -32,7 +32,7 @@ contract CAC{
     function createRequest(
         string memory des,
         uint256 value,
-        address vendor
+        address payable vendor
     ) public restricted {
         SpendingRequest storage req = requests[requestCount++];
         req.description = des;
@@ -48,5 +48,24 @@ contract CAC{
         request.approvalCount++;
         request.approvedUsers[msg.sender]=true;
     }
+    function executeRequest(uint index) public restricted{
+        SpendingRequest storage request = requests[index];
 
+        require(!request.complete);
+        require(request.approvalCount >= (approversCount/2));
+        request.vendorAccount.transfer(request.value);
+        request.complete = true;
+    }
+
+}
+
+contract CommitteeCreator{
+    CAC[] public deployedCommittee;
+    function createCommittee(uint256 minimum) public {
+        CAC newCommittee = new CAC(minimum,msg.sender);
+        deployedCommittee.push(newCommittee);
+    }
+    function getDeployedCommittee() public view returns(CAC[] memory ){
+        return deployedCommittee;
+    }
 }

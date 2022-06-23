@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "minimum",
+						"type": "uint256"
+					}
+				],
+				"name": "createCommittee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedCommittee",
+				"outputs": [
+					{
+						"internalType": "contract CAC",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDeployedCommittee",
+				"outputs": [
+					{
+						"internalType": "contract CAC[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CAC.sol": "CommitteeCreator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CAC.sol": {
+			"keccak256": "0xe639a7981826b57c77b1ce3ed1b4656b232fb9bd72d66b2243eb52316945518f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5bf437eba0cb2b497d0b843c57e83bd43907b021ec7d2253dbaa2bc7c798f01",
+				"dweb:/ipfs/QmRYc2D5iAksbZigZzQ5pmSXYQVzv8HWa6Tu11A9CUggAB"
+			]
+		}
+	},
+	"version": 1
+}

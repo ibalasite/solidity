@@ -11,6 +11,11 @@
 						"internalType": "uint256",
 						"name": "fund",
 						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "mgr",
+						"type": "address"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -74,12 +79,25 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "vendor",
 						"type": "address"
 					}
 				],
 				"name": "createRequest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "executeRequest",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -138,7 +156,7 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "vendorAccount",
 						"type": "address"
 					},
@@ -185,11 +203,11 @@
 	},
 	"sources": {
 		"contracts/CAC.sol": {
-			"keccak256": "0xa94b63fd750ae7dce20d4a54cce21c535bfdde8be76c4087f8d1323f4c03ab3f",
+			"keccak256": "0xe639a7981826b57c77b1ce3ed1b4656b232fb9bd72d66b2243eb52316945518f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://876945f8582f564530664cebeda13f70cad27414caa63bf96554d726da6db745",
-				"dweb:/ipfs/QmVthZHghgXyZNre9jtyg5usM9LDBVPA3tn1vJ3j1Tc5XJ"
+				"bzz-raw://e5bf437eba0cb2b497d0b843c57e83bd43907b021ec7d2253dbaa2bc7c798f01",
+				"dweb:/ipfs/QmRYc2D5iAksbZigZzQ5pmSXYQVzv8HWa6Tu11A9CUggAB"
 			]
 		}
 	},
