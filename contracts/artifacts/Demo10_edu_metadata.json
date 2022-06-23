@@ -12,6 +12,26 @@
 			},
 			{
 				"inputs": [],
+				"name": "addOtherMemory",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addOtherStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "addSomething",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -35,6 +55,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnArray1",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "myArray2",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -50,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Demo11_edu.sol": "Demo1"
+			"contracts/Demo10_edu.sol": "Demo10_edu"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -64,12 +97,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Demo11_edu.sol": {
-			"keccak256": "0x3412bb81796911ff1a83005dfd10f14f79306e7a7dfc59e3b04375bbd022bdbd",
+		"contracts/Demo10_edu.sol": {
+			"keccak256": "0xd1284fa0a0d01e9e9917fb74aa7b708366e3baaba7668aa7f5b73f1be77dbb27",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5a7d5aaeeaa3422011c16afa0859578abbbb27e880acf79eae6fe952240815fb",
-				"dweb:/ipfs/QmPFMWLUgasw5eAPGStN1WFJs2zXV4dNSCUc7JUuvpYpx8"
+				"bzz-raw://95c0d64f4c28178fd4f9f70105f6bfe06eedc1698c2f662e6cabb2e62616efb0",
+				"dweb:/ipfs/Qmcby6vHDD3VzhxhuxqyXvSBZRnJfa4KBs187HitV62QKz"
 			]
 		}
 	},

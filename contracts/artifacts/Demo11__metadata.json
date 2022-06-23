@@ -7,30 +7,30 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "getContractBalance",
-				"outputs": [
+				"name": "addSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getEOABalance",
+				"name": "myArray",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Demo8Balance.sol": "Demo8Balance"
+			"contracts/Demo11_edu.sol": "Demo11_"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -64,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Demo8Balance.sol": {
-			"keccak256": "0x2f46daf64984cc5c5af4c3b330f1013ddf3a0020c089504763c551a45e829f8d",
+		"contracts/Demo11_edu.sol": {
+			"keccak256": "0x7efe253069649d5409a18201874cf3cc9decfc930376703263e3321410219b17",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://44f5085e860a84097a5645415d83b0017fb271f7b3100da7b8cf5168b567b69b",
-				"dweb:/ipfs/Qmdji9BKQB8PShWaMqAAcKPoYhu5htrp4jvBDSu3m5uA5M"
+				"bzz-raw://bb37dfbaa26bd33fb689592fa38ec0c075121f11da70bca28c99c72a8b96bdd8",
+				"dweb:/ipfs/QmTwEWRGe7kaWKnA6BXFKsz54H2T3eFiXrH5t8Tzi663bx"
 			]
 		}
 	},

@@ -76,6 +76,42 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "requests",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "vendorAccount",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "complete",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -99,10 +135,10 @@
 	},
 	"sources": {
 		"contracts/CAC.sol": {
-			"keccak256": "0x855bc0b3a044facb131ad16811bf65084c9095a04f65a196f3deb6e473e5ad4a",
+			"keccak256": "0xc417fd696adb704401800ed4b8ae823d71d57002eccfad22e31d1deafe6f8bd0",
 			"urls": [
-				"bzz-raw://cdcd24cfbcd738da38e8c9b616e5a4f9ea684aecaac0bad9804a3fcf3088004d",
-				"dweb:/ipfs/QmPuqQLnqYHGWaPHqQSDFMqwhnuYc8DvmtfvXvsc6gnAaE"
+				"bzz-raw://08a4169336447cbdd5cf072cdec453af7d155e434e055e70a61603d9e80e8c8b",
+				"dweb:/ipfs/QmPUBywy5Gk7rXX3Z4vSHgPwP9GcCFb4WaSr6M2Ujm66gy"
 			]
 		}
 	},
