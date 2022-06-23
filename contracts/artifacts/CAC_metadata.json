@@ -49,6 +49,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "approversCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -172,11 +185,11 @@
 	},
 	"sources": {
 		"contracts/CAC.sol": {
-			"keccak256": "0xe69a21742ae8a1036b497c65ca14f1bd22a42ce4001431d850993204b2d14b58",
+			"keccak256": "0xa94b63fd750ae7dce20d4a54cce21c535bfdde8be76c4087f8d1323f4c03ab3f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e9b5f5c01ce39ef205ad2a38188fc7bd5522bee41a3062ef4b0b319635ee833b",
-				"dweb:/ipfs/QmVkMz9ruuDx3JHfeeCHyYhXz6UCU5DtumVJ5AavpNU3A4"
+				"bzz-raw://876945f8582f564530664cebeda13f70cad27414caa63bf96554d726da6db745",
+				"dweb:/ipfs/QmVthZHghgXyZNre9jtyg5usM9LDBVPA3tn1vJ3j1Tc5XJ"
 			]
 		}
 	},

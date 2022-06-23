@@ -18,6 +18,7 @@ contract CAC{
     }
     address public manager;
     uint256 public minimumFund;
+    uint public approversCount;
     mapping(address => bool) public approvers;
     constructor(uint256 fund) {
         manager = msg.sender;
@@ -26,6 +27,7 @@ contract CAC{
     function join() public payable{
         require(msg.value > minimumFund);
         approvers[msg.sender] = true;
+        approversCount++;
     }
     function createRequest(
         string memory des,
