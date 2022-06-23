@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.17+commit.d19bba13"
+		"version": "0.7.6+commit.7338295f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -13,33 +13,42 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "approvers",
-				"outputs": [
+				"name": "approvalRequest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"payable": false,
+				"name": "approvers",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "string",
@@ -59,21 +68,17 @@
 				],
 				"name": "createRequest",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [],
 				"name": "join",
 				"outputs": [],
-				"payable": true,
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "manager",
 				"outputs": [
@@ -83,12 +88,10 @@
 						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "minimumFund",
 				"outputs": [
@@ -98,12 +101,10 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -132,18 +133,26 @@
 						"internalType": "bool",
 						"name": "complete",
 						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "approvalCount",
+						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -152,6 +161,9 @@
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -160,10 +172,11 @@
 	},
 	"sources": {
 		"contracts/CAC.sol": {
-			"keccak256": "0x9b80963b22adda9a93dbb41771c4692503d3582d8ceaf0032a1c078c4388de6c",
+			"keccak256": "0xe69a21742ae8a1036b497c65ca14f1bd22a42ce4001431d850993204b2d14b58",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://164d6c83349781c5aefa07f1481977b6a765e082d3d74555ad97a066b70620d2",
-				"dweb:/ipfs/QmRueXimSnLU9jFUcotbULeAfviUDoZdyGxzwBaDLcrfsh"
+				"bzz-raw://e9b5f5c01ce39ef205ad2a38188fc7bd5522bee41a3062ef4b0b319635ee833b",
+				"dweb:/ipfs/QmVkMz9ruuDx3JHfeeCHyYhXz6UCU5DtumVJ5AavpNU3A4"
 			]
 		}
 	},
